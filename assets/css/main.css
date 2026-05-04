@@ -18,7 +18,7 @@
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
-:root { 
+:root {
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #222222; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #172a28; /* Color for headings, subheadings and title throughout the website */
@@ -288,6 +288,7 @@ h6 {
 }
 
 .header .branding {
+
   min-height: 60px;
   padding: 10px 0;
 }
