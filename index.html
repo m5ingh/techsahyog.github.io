@@ -24,6 +24,10 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+  <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="assets/js/floating-wpp.min.js"></script>
+  <link rel="stylesheet" href="assets/css/floating-wpp.min.css">
+
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
@@ -316,7 +320,7 @@
                 <i class="bi bi-bounding-box-circles"></i>
               </div>
               <h3>Instant Human Tech Support</h3>
-              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
+              <p>Get your issues resolved quickly with a no nonsense instant human tech support.</p>
               <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
@@ -326,8 +330,8 @@
               <div class="icon">
                 <i class="bi bi-calendar4-week"></i>
               </div>
-              <h3>In Person Events</h3>
-              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
+              <h3>Workshops</h3>
+              <p>Shortterm 1 day In Person Events to tackle specific issues.</p>
               <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
@@ -337,8 +341,8 @@
               <div class="icon">
                 <i class="bi bi-chat-square-text"></i>
               </div>
-              <h3>Longterm Bootcamps</h3>
-              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+              <h3>Bootcamps</h3>
+              <p>Longterm months long programms for complete familiarity with a specific digital platform.</p>
               <a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
@@ -481,7 +485,7 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
+        <h2>Courses</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
       </div><!-- End Section Title -->
 
@@ -491,10 +495,10 @@
 
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
             <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-product">Product</li>
-            <li data-filter=".filter-branding">Branding</li>
-            <li data-filter=".filter-books">Books</li>
+            <li data-filter=".filter-app">Online</li>
+            <li data-filter=".filter-product">Offline</li>
+            <li data-filter=".filter-branding">Workshops</li>
+            <li data-filter=".filter-books">Bootcamps</li>
           </ul><!-- End Portfolio Filters -->
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
@@ -965,7 +969,15 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <div id="myDiv"></div>
 
 </body>
+<script type="text/javascript">
+  $(function () {
+    $('#myDiv').floatingWhatsApp({
+      phone: '919934644553'
+    });
+  });
+</script>
 
 </html>
